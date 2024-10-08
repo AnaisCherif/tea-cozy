@@ -1,0 +1,64 @@
+body {
+  font-family: 'Helvetica';
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h2, h4, .contact {
+  text-align: center;
+}
+
+nav {
+  background-color: black;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  /* position: fixed; */
+  text-decoration: underline;
+}
+
+nav img {
+  height: 50px;
+  margin: 10px;
+}
+
+.banner {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1dsd8tp*_gcl_au*MTEyMzExODA3My4xNzI3MTcyMTE4*_ga*NjcwNzc3NzcxMC4xNzI3MTcyMTI2*_ga_3LRZM6TM9L*MTcyODM4NTg1My4zMy4xLjE3MjgzOTY5ODcuMC4wLjA.');
+  height: 700px;
+  width: 1200px;
+}
+
+.title {
+  background-color: black;
+  justify-content: center;
+}
+
+.cards {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.locations {
+  height: 500px;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*krm4yp*_gcl_au*MTEyMzExODA3My4xNzI3MTcyMTE4*_ga*NjcwNzc3NzcxMC4xNzI3MTcyMTI2*_ga_3LRZM6TM9L*MTcyODM4NTg1My4zMy4xLjE3MjgzOTY5ODcuMC4wLjA.');
+}
+
+.contact {
+  height: 200px;
+}
+
+.footer {
+  margin-left: 20px;
+}
